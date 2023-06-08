@@ -71,8 +71,7 @@ def quechua(n):
 ## titulo
 st.title('Números en Quechua')
 
-n_input = st.number_input(
-        "Escriba un número entre 1 y 99 👇")
+n_input = st.slider("Selecciona un número entre 1 y 99 👇")
 
 st.write(quechua(n_input))
 
